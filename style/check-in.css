@@ -3,6 +3,7 @@ body {
   justify-content: center;
   /* align-items: center; */
   height: 100vh;
+  font-size: calc(15px + 0.390625vw);
 }
 
 .container {
@@ -12,18 +13,19 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 6rem;
   margin-bottom: 20px;
 }
 
 label {
   display: block;
   margin-bottom: 10px;
+  font-size: 3rem;
 }
 
 input[type="text"] {
   padding: 5px;
-  font-size: 16px;
+  font-size: 3rem;
   width: calc(300px - 2 * 5px);
 }
 
@@ -32,24 +34,23 @@ input[type="text"] {
   display: block;
 }
 
-.button-green {
+.button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4CAF50;
-  color: #fff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  font-size: 3rem;
+}
+
+.button-green {
+  background-color: #4CAF50;
+  color: #fff;
 }
 
 .button-yellow {
-  display: inline-block;
-  padding: 10px 20px;
   background-color: #98a83f;
   color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
 }
 
 .button:hover {
@@ -70,6 +71,7 @@ input[type="text"] {
   margin-top: 5px;
   padding: 0;
   list-style: none;
+  font-size: 3rem;
 }
 
 .dropdown-item {

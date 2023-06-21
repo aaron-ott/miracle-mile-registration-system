@@ -14,12 +14,12 @@ async function get_names_list() {
 get_names_list();
 
 function showSubmitButton() {
-  buttonsContainer.innerHTML = '<a href="/check-in-success" class="button-green" onclick="postData(event);">Submit</a>';
+  buttonsContainer.innerHTML = '<a href="/check-in-success" class="button button-green" onclick="postData(event);">Submit</a>';
   buttonsContainer.style.display = 'block';
 }
 
 function showRegisterButton() {
-  buttonsContainer.innerHTML = '<a href="/register" class="button-yellow">Register</a>';
+  buttonsContainer.innerHTML = '<a href="/register" class="button button-yellow">Register</a>';
   buttonsContainer.style.display = 'block';
 }
 
