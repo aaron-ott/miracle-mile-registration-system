@@ -26,7 +26,7 @@ label {
 input[type="text"] {
   padding: 5px;
   font-size: 3rem;
-  width: calc(300px - 2 * 5px);
+  width: calc(50rem - 2 * 5px);
 }
 
 #buttons {
@@ -65,7 +65,7 @@ input[type="text"] {
   position: absolute;
   text-align: left;
   left: 0;
-  width: 300px;
+  width: 50rem;
   max-height: 150px;
   overflow-y: auto;
   margin-top: 5px;
