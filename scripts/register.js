@@ -47,7 +47,7 @@ const postData = async (data) => {
     
         if (response.ok) {
           // POST request successful, redirect to /success
-          window.location.href = '/registration-success';
+          window.location.href = 'registration-success.html';
         } else {
           // POST request failed
           document.getElementById('error-message').innerHTML = 'Could not register successfully. Most likely a software issue.';

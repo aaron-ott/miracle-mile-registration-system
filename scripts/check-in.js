@@ -14,12 +14,12 @@ async function get_names_list() {
 get_names_list();
 
 function showSubmitButton() {
-  buttonsContainer.innerHTML = '<a href="/check-in-success" class="button button-green" onclick="postData(event);">Submit</a>';
+  buttonsContainer.innerHTML = '<a href="check-in-success.html" class="button button-green" onclick="postData(event);">Submit</a>';
   buttonsContainer.style.display = 'block';
 }
 
 function showRegisterButton() {
-  buttonsContainer.innerHTML = '<a href="/register" class="button button-yellow">Register</a>';
+  buttonsContainer.innerHTML = '<a href="register.html" class="button button-yellow">Register</a>';
   buttonsContainer.style.display = 'block';
 }
 
@@ -132,7 +132,7 @@ const postData = async (event) => {
 
     if (response.ok) {
       // POST request successful, redirect to /success
-      window.location.href = '/check-in-success';
+      window.location.href = 'check-in-success.html';
     } else {
       // POST request failed
       console.log("Post request failed");
