@@ -5,7 +5,7 @@ from mmwi import DataManager
 
 app = FastAPI()
 
-dm = DataManager("/home/aaron/dev/mmwi/database.csv")
+dm = DataManager("/app/db/database.csv")
 
 @app.get("/favicon.ico")
 async def get_favicon():
